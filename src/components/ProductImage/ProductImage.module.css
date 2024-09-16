@@ -1,0 +1,32 @@
+.product_image{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_image img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.image_gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.image_gallery img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .product_image {
+        width: 50%;
+    }
+}

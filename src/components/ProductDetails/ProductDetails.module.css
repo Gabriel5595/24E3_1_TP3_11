@@ -1,0 +1,16 @@
+.product_details {
+    flex: 2;
+    padding: 10px;
+    text-align: center;
+}
+
+.product_details h1, .product_details_content{
+    margin: 10px;
+}
+
+@media (min-width: 768px) {
+    .product_details {
+        width: 50%;
+        text-align: left;
+    }
+}
